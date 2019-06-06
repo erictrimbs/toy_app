@@ -9,6 +9,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
+  gem 'solargraph'
   gem 'sqlite3', '1.3.13'
   gem 'byebug', platforms: [:mri]
 end
